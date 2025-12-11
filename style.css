@@ -32,10 +32,17 @@ nav{
 }
 
 .nav1{
-    ;
+        
     display: flex;
     /* align-items: center;
     justify-content: center; */
+}
+
+.nav2>h4{
+    border: solid black 1px;
+    border-radius: 20px;
+    padding:5px 10px;
+    text-wrap: nowrap;
 }
 
 .nav2,.nav3{
@@ -70,7 +77,7 @@ nav{
 }
 
 .nav2{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 10px 20px;
 }
 
